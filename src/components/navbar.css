@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Inter, sans-serif;
+}
+
+.navbar {
+  background-color: #21222A;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 550px;
+  height: 91px;
+}
+
+.navbar div {
+  padding: 4%;
+}
+
+.logo {
+  display: flex;
+  width: 158px;
+  height: 28.93px;
+}
+
+.logo img {
+  width: 2em;
+}
+
+.logo h2 {
+  color: #61dafb;
+  font-weight: 700;
+}
+
+.extra-title {
+  color: #DEEBF8;
+  font-weight: 600;
+}
