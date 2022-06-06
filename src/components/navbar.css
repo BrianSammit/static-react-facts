@@ -7,7 +7,7 @@ body {
   font-family: Inter, sans-serif;
 }
 
-.navbar {
+.darkNav {
   background-color: #21222A;
   display: flex;
   justify-content: space-between;
@@ -16,14 +16,22 @@ body {
   height: 91px;
 }
 
-.navbar div {
-  padding: 4%;
+.lightNav {
+  background-color: white;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 550px;
+  height: 91px;
+  margin-bottom: 2px;
 }
 
 .logo {
   display: flex;
   width: 158px;
   height: 28.93px;
+  padding: 4%;
 }
 
 .logo img {
@@ -35,7 +43,21 @@ body {
   font-weight: 700;
 }
 
-.extra-title {
+.toggler{
+  width: 20%;
   color: #DEEBF8;
   font-weight: 600;
+  padding: 4%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 10px;
+}
+
+.toggler--light {
+  color: #2B283A;
+}
+
+.toggler--dark {
+  color: #D5D4D8;
 }

@@ -1,10 +1,10 @@
 import React from 'react'
 import './main.css'
 
-const Main = () => {
+const Main = (props) => {
   return (
-    <main className='main'>
-      <h1>Fun facts about React</h1>  
+    <main className={props.darkMode ? "darkMain" : "lightMain"}>
+      <h1 className='title'>Fun facts about React</h1>  
       <ul className='main--ul_facts'>
         <li>Was first released in 2013</li>
         <li>Was originally created by Jordan Walke</li>

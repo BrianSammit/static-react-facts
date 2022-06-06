@@ -1,13 +1,25 @@
-.main {
+.darkMain {
   width: 550px;
   background-color: #282D35;
-    background-image: url('../assets/images/reactjs-icon-2.png');
+  background-image: url('../assets/images/reactjs-icon-2.png');
   background-repeat: no-repeat;
   background-position: right;
+  color: #fff;
+
 }
 
-.main h1 {
-  color: #fff;
+.lightMain {
+  width: 550px;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+  background-color: white;
+  background-image: url('../assets/images/reactjs-icon-2-l.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  color: #28283A;
+
+}
+
+.title {
   font-weight: 700;
   font-size: 39px;
   letter-spacing: -0.05em;
@@ -15,7 +27,6 @@
 }
 
 .main--ul_facts {
-  color: #fff;
   padding: 20px 50px;
   max-width: 400px;
 }
